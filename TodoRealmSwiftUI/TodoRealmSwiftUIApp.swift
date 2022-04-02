@@ -9,9 +9,10 @@ import SwiftUI
 
 @main
 struct TodoRealmSwiftUIApp: App {
-    var body: some Scene {
-        WindowGroup {
-					ContentView().environmentObject(TaskViewModel())
-        }
-    }
+	@UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+	var body: some Scene {
+			WindowGroup {
+				ContentView().environmentObject(TaskViewModel())
+			}
+	}
 }

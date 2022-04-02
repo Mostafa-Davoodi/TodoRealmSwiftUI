@@ -20,6 +20,7 @@
 		A39F558F27B1F72600883FDD /* TaskObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39F558E27B1F72600883FDD /* TaskObject.swift */; };
 		A39F559127B1F7AC00883FDD /* TaskViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39F559027B1F7AC00883FDD /* TaskViewModel.swift */; };
 		A39F559327B1FA4C00883FDD /* TaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39F559227B1FA4C00883FDD /* TaskView.swift */; };
+		A3C778E227B4A03800FEE02E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C778E127B4A03800FEE02E /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		A39F558E27B1F72600883FDD /* TaskObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskObject.swift; sourceTree = "<group>"; };
 		A39F559027B1F7AC00883FDD /* TaskViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewModel.swift; sourceTree = "<group>"; };
 		A39F559227B1FA4C00883FDD /* TaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskView.swift; sourceTree = "<group>"; };
+		A3C778E127B4A03800FEE02E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				A39F558E27B1F72600883FDD /* TaskObject.swift */,
 				A39F559027B1F7AC00883FDD /* TaskViewModel.swift */,
 				A39F559227B1FA4C00883FDD /* TaskView.swift */,
+				A3C778E127B4A03800FEE02E /* AppDelegate.swift */,
 			);
 			path = TodoRealmSwiftUI;
 			sourceTree = "<group>";
@@ -177,6 +180,7 @@
 				A39F558F27B1F72600883FDD /* TaskObject.swift in Sources */,
 				A39F559127B1F7AC00883FDD /* TaskViewModel.swift in Sources */,
 				A39F558427B1F60E00883FDD /* TaskRowView.swift in Sources */,
+				A3C778E227B4A03800FEE02E /* AppDelegate.swift in Sources */,
 				A39F557427B1F5EA00883FDD /* TodoRealmSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
